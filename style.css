@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    transition: 0.5s all ease;
+}
+.box{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+#hex{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 20%;
+}
+button{
+    position: absolute;
+    padding: 5px 12px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 50px;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    margin-left: -10%;
+}
